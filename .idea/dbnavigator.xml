@@ -38,14 +38,14 @@
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="1416ee65-bc66-4d7b-974f-478bd89b11b3" />
   </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="1416ee65-bc66-4d7b-974f-478bd89b11b3" dataset="mydb.users" active-filter-id="" />
+  </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
-  </component>
-  <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/src/test/resources/test.sql" connection-id="1416ee65-bc66-4d7b-974f-478bd89b11b3" session-id="MAIN" current-schema="mydb" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
