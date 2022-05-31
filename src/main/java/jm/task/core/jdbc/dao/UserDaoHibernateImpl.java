@@ -1,6 +1,7 @@
 package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
+import jm.task.core.jdbc.util.Util;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -16,8 +17,7 @@ public class UserDaoHibernateImpl implements UserDao {
     public UserDaoHibernateImpl() {
 
     }
-    static SessionFactory sessionFactory = new Configuration()
-            .addAnnotatedClass(User.class)
+    static SessionFactory sessionFactory = Util.getConfiguration()
             .buildSessionFactory();
     Session session;
     Transaction transactional;
